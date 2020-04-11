@@ -20,10 +20,7 @@ int main()
     }
     for(i=2;i<10;i++)
     {
-        if((array[i]-array[i-1])>0)
-            total=total+(array[i]-array[i-1]);
-        else
-            total=total+(array[i-1]-array[i]);
+        total=total+abs(array[i]-array[i-1]);
     }
 	
 	char str[50];
