@@ -37,6 +37,6 @@ int main()
 	char buffer[50];
 	int a;
 	a = read(fd,buffer,50);
-	write(1,"Sleek Time: ",15);
+	write(1," Total Seek Time/ Total Distance moved by Disk Arm: ",60);
 	write(1,buffer,a);
 }
